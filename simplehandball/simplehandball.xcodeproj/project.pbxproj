@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B56FCBB72B375BC5002DD316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56FCBB62B375BC5002DD316 /* AppDelegate.swift */; };
+		B56FCBB92B375BC5002DD316 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56FCBB82B375BC5002DD316 /* SceneDelegate.swift */; };
+		B56FCBBB2B375BC5002DD316 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56FCBBA2B375BC5002DD316 /* ViewController.swift */; };
+		B56FCBBE2B375BC5002DD316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56FCBBC2B375BC5002DD316 /* Main.storyboard */; };
+		B56FCBC12B375BC5002DD316 /* simplehandball.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B56FCBBF2B375BC5002DD316 /* simplehandball.xcdatamodeld */; };
+		B56FCBC32B375BC9002DD316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56FCBC22B375BC9002DD316 /* Assets.xcassets */; };
+		B56FCBC62B375BC9002DD316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56FCBC42B375BC9002DD316 /* LaunchScreen.storyboard */; };
+		B56FCBD12B375BCA002DD316 /* simplehandballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56FCBD02B375BCA002DD316 /* simplehandballTests.swift */; };
+		B56FCBDB2B375BCA002DD316 /* simplehandballUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56FCBDA2B375BCA002DD316 /* simplehandballUITests.swift */; };
+		B56FCBDD2B375BCA002DD316 /* simplehandballUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56FCBDC2B375BCA002DD316 /* simplehandballUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B56FCBCD2B375BCA002DD316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B56FCBAB2B375BC5002DD316 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B56FCBB22B375BC5002DD316;
+			remoteInfo = simplehandball;
+		};
+		B56FCBD72B375BCA002DD316 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B56FCBAB2B375BC5002DD316 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B56FCBB22B375BC5002DD316;
+			remoteInfo = simplehandball;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B56FCBB32B375BC5002DD316 /* simplehandball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simplehandball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56FCBB62B375BC5002DD316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B56FCBB82B375BC5002DD316 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B56FCBBA2B375BC5002DD316 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B56FCBBD2B375BC5002DD316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B56FCBC02B375BC5002DD316 /* simplehandball.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = simplehandball.xcdatamodel; sourceTree = "<group>"; };
+		B56FCBC22B375BC9002DD316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B56FCBC52B375BC9002DD316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B56FCBC72B375BC9002DD316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B56FCBCC2B375BCA002DD316 /* simplehandballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simplehandballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56FCBD02B375BCA002DD316 /* simplehandballTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simplehandballTests.swift; sourceTree = "<group>"; };
+		B56FCBD62B375BCA002DD316 /* simplehandballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simplehandballUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56FCBDA2B375BCA002DD316 /* simplehandballUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simplehandballUITests.swift; sourceTree = "<group>"; };
+		B56FCBDC2B375BCA002DD316 /* simplehandballUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simplehandballUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B56FCBB02B375BC5002DD316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56FCBC92B375BCA002DD316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56FCBD32B375BCA002DD316 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B56FCBAA2B375BC5002DD316 = {
+			isa = PBXGroup;
+			children = (
+				B56FCBB52B375BC5002DD316 /* simplehandball */,
+				B56FCBCF2B375BCA002DD316 /* simplehandballTests */,
+				B56FCBD92B375BCA002DD316 /* simplehandballUITests */,
+				B56FCBB42B375BC5002DD316 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B56FCBB42B375BC5002DD316 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B56FCBB32B375BC5002DD316 /* simplehandball.app */,
+				B56FCBCC2B375BCA002DD316 /* simplehandballTests.xctest */,
+				B56FCBD62B375BCA002DD316 /* simplehandballUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B56FCBB52B375BC5002DD316 /* simplehandball */ = {
+			isa = PBXGroup;
+			children = (
+				B56FCBB62B375BC5002DD316 /* AppDelegate.swift */,
+				B56FCBB82B375BC5002DD316 /* SceneDelegate.swift */,
+				B56FCBBA2B375BC5002DD316 /* ViewController.swift */,
+				B56FCBBC2B375BC5002DD316 /* Main.storyboard */,
+				B56FCBC22B375BC9002DD316 /* Assets.xcassets */,
+				B56FCBC42B375BC9002DD316 /* LaunchScreen.storyboard */,
+				B56FCBC72B375BC9002DD316 /* Info.plist */,
+				B56FCBBF2B375BC5002DD316 /* simplehandball.xcdatamodeld */,
+			);
+			path = simplehandball;
+			sourceTree = "<group>";
+		};
+		B56FCBCF2B375BCA002DD316 /* simplehandballTests */ = {
+			isa = PBXGroup;
+			children = (
+				B56FCBD02B375BCA002DD316 /* simplehandballTests.swift */,
+			);
+			path = simplehandballTests;
+			sourceTree = "<group>";
+		};
+		B56FCBD92B375BCA002DD316 /* simplehandballUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B56FCBDA2B375BCA002DD316 /* simplehandballUITests.swift */,
+				B56FCBDC2B375BCA002DD316 /* simplehandballUITestsLaunchTests.swift */,
+			);
+			path = simplehandballUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B56FCBB22B375BC5002DD316 /* simplehandball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56FCBE02B375BCA002DD316 /* Build configuration list for PBXNativeTarget "simplehandball" */;
+			buildPhases = (
+				B56FCBAF2B375BC5002DD316 /* Sources */,
+				B56FCBB02B375BC5002DD316 /* Frameworks */,
+				B56FCBB12B375BC5002DD316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simplehandball;
+			productName = simplehandball;
+			productReference = B56FCBB32B375BC5002DD316 /* simplehandball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B56FCBCB2B375BCA002DD316 /* simplehandballTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56FCBE32B375BCA002DD316 /* Build configuration list for PBXNativeTarget "simplehandballTests" */;
+			buildPhases = (
+				B56FCBC82B375BCA002DD316 /* Sources */,
+				B56FCBC92B375BCA002DD316 /* Frameworks */,
+				B56FCBCA2B375BCA002DD316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B56FCBCE2B375BCA002DD316 /* PBXTargetDependency */,
+			);
+			name = simplehandballTests;
+			productName = simplehandballTests;
+			productReference = B56FCBCC2B375BCA002DD316 /* simplehandballTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B56FCBD52B375BCA002DD316 /* simplehandballUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B56FCBE62B375BCA002DD316 /* Build configuration list for PBXNativeTarget "simplehandballUITests" */;
+			buildPhases = (
+				B56FCBD22B375BCA002DD316 /* Sources */,
+				B56FCBD32B375BCA002DD316 /* Frameworks */,
+				B56FCBD42B375BCA002DD316 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B56FCBD82B375BCA002DD316 /* PBXTargetDependency */,
+			);
+			name = simplehandballUITests;
+			productName = simplehandballUITests;
+			productReference = B56FCBD62B375BCA002DD316 /* simplehandballUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B56FCBAB2B375BC5002DD316 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B56FCBB22B375BC5002DD316 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					B56FCBCB2B375BCA002DD316 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B56FCBB22B375BC5002DD316;
+					};
+					B56FCBD52B375BCA002DD316 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B56FCBB22B375BC5002DD316;
+					};
+				};
+			};
+			buildConfigurationList = B56FCBAE2B375BC5002DD316 /* Build configuration list for PBXProject "simplehandball" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B56FCBAA2B375BC5002DD316;
+			productRefGroup = B56FCBB42B375BC5002DD316 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B56FCBB22B375BC5002DD316 /* simplehandball */,
+				B56FCBCB2B375BCA002DD316 /* simplehandballTests */,
+				B56FCBD52B375BCA002DD316 /* simplehandballUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B56FCBB12B375BC5002DD316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56FCBC62B375BC9002DD316 /* LaunchScreen.storyboard in Resources */,
+				B56FCBC32B375BC9002DD316 /* Assets.xcassets in Resources */,
+				B56FCBBE2B375BC5002DD316 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56FCBCA2B375BCA002DD316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56FCBD42B375BCA002DD316 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B56FCBAF2B375BC5002DD316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56FCBBB2B375BC5002DD316 /* ViewController.swift in Sources */,
+				B56FCBB72B375BC5002DD316 /* AppDelegate.swift in Sources */,
+				B56FCBB92B375BC5002DD316 /* SceneDelegate.swift in Sources */,
+				B56FCBC12B375BC5002DD316 /* simplehandball.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56FCBC82B375BCA002DD316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56FCBD12B375BCA002DD316 /* simplehandballTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56FCBD22B375BCA002DD316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56FCBDD2B375BCA002DD316 /* simplehandballUITestsLaunchTests.swift in Sources */,
+				B56FCBDB2B375BCA002DD316 /* simplehandballUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B56FCBCE2B375BCA002DD316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B56FCBB22B375BC5002DD316 /* simplehandball */;
+			targetProxy = B56FCBCD2B375BCA002DD316 /* PBXContainerItemProxy */;
+		};
+		B56FCBD82B375BCA002DD316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B56FCBB22B375BC5002DD316 /* simplehandball */;
+			targetProxy = B56FCBD72B375BCA002DD316 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B56FCBBC2B375BC5002DD316 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56FCBBD2B375BC5002DD316 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B56FCBC42B375BC9002DD316 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B56FCBC52B375BC9002DD316 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B56FCBDE2B375BCA002DD316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B56FCBDF2B375BCA002DD316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B56FCBE12B375BCA002DD316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = simplehandball/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hiro.simplehandball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B56FCBE22B375BCA002DD316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = simplehandball/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hiro.simplehandball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B56FCBE42B375BCA002DD316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hiro.simplehandballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simplehandball.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/simplehandball";
+			};
+			name = Debug;
+		};
+		B56FCBE52B375BCA002DD316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hiro.simplehandballTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simplehandball.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/simplehandball";
+			};
+			name = Release;
+		};
+		B56FCBE72B375BCA002DD316 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hiro.simplehandballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = simplehandball;
+			};
+			name = Debug;
+		};
+		B56FCBE82B375BCA002DD316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hiro.simplehandballUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = simplehandball;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B56FCBAE2B375BC5002DD316 /* Build configuration list for PBXProject "simplehandball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56FCBDE2B375BCA002DD316 /* Debug */,
+				B56FCBDF2B375BCA002DD316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B56FCBE02B375BCA002DD316 /* Build configuration list for PBXNativeTarget "simplehandball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56FCBE12B375BCA002DD316 /* Debug */,
+				B56FCBE22B375BCA002DD316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B56FCBE32B375BCA002DD316 /* Build configuration list for PBXNativeTarget "simplehandballTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56FCBE42B375BCA002DD316 /* Debug */,
+				B56FCBE52B375BCA002DD316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B56FCBE62B375BCA002DD316 /* Build configuration list for PBXNativeTarget "simplehandballUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B56FCBE72B375BCA002DD316 /* Debug */,
+				B56FCBE82B375BCA002DD316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B56FCBBF2B375BC5002DD316 /* simplehandball.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B56FCBC02B375BC5002DD316 /* simplehandball.xcdatamodel */,
+			);
+			currentVersion = B56FCBC02B375BC5002DD316 /* simplehandball.xcdatamodel */;
+			path = simplehandball.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B56FCBAB2B375BC5002DD316 /* Project object */;
+}
